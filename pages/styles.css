@@ -4,13 +4,234 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Manrope', sans-serif;
+
 }
+
+.nav-links{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+   justify-content:center;
+   background-color: #1f1c1a;
+
+
+    
+}
+
+
+.home-link button{
+    background: linear-gradient(60deg,#f79533,#f37055,#ef4e7b,#a166ab,#5073b8,#1098ad,#07b39b,#6fba82);
+    animation: animatedgradient-fac1f164 3s ease infinite alternate;
+    background-size: 150% 150%;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+  width: 100%;  
+
+  
+}
+
+.create-link button{
+    background: linear-gradient(60deg,#f79533,#f37055,#ef4e7b,#a166ab,#5073b8,#1098ad,#07b39b,#6fba82);
+    animation: animatedgradient-fac1f164 3s ease infinite alternate;
+    background-size: 150% 150%;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+  width: 100%;
+  margin: 5%;
+ 
+}
+
+
+.home_container{
+   width: 100%;
+   background-color: #f0ece6;
+   margin:0;
+
+}
+
+.hero-container{
+    height: 50vh;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.hero-container h1{
+   
+        font-size: 4em;
+        text-align: center;
+        line-height: .5em;
+}
+
+.hero-container h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+.examples-container h3{
+    font-size: 1em;
+    text-align: center;
+}
+
+
+
+
+.cta-btn{
+    color:#f79533;
+    background-size: 300% 300%;
+    border: 2px solid #f79533;
+    border-radius: 16px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+  width: 20%;  
+  align-self: center;
+
+  
+}
+
+.examples-container{
+    max-width: 100%;
+}
+
+.cards_container{
+    /* max-width: 500px; */
+    display: flex;
+  flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.card{
+    border-radius: 12px;
+    border-image-slice: 1;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+    transition: all 0.25s linear;
+    width: 400px;
+    margin: 15px;
+    background-color: white;
+ 
+
+    
+}
+
+.card img{
+    width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card-title{
+    text-align: center;
+    color:#5073b8;
+}
+
+.card-text{
+    padding: 7px
+}
+
+
+
+
+/* ///////// */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .image {
+  
+    margin-bottom: 24px;
+    cursor: pointer;
+  }
+  
+  .image img {
+    width: 100%;
+  }
+  
+  .image.selected {
+    border: 2px solid #0066ff;
+  }
+  
+  .alert {
+    margin-top: 16px;
+    padding: 8px 12px;
+    background-color: #ffe6e6;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+
+/* .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .image {
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+  .image.selected {
+    border-color: blue;
+  } */
+  
+
+
+/* ///////// */
 
 .root {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: #2ea875;
+    background-color: #f0ece6;
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -43,27 +264,14 @@ body {
     color: #FFF
 }
 
-.header-title {
-    display: flex;
-    gap: 12px;
-}
 
-.header-title h1 {
-    width: 100%;
-    font-weight: 700;
-    font-size: 72px;
-    letter-spacing: -4px;
-    line-height: 1.2em;
-    text-align: center;
-    margin: 0;
-}
 
 .header-subtitle h2 {
-    font-size: 15px;
+    font-size: 1.5em;
     font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
-    color:white;
+   color:black;
 }
 
 .sub-header p{
@@ -178,22 +386,29 @@ textarea {
 }
 
 .generate-button {
-    place-content: flex-start;
-    align-items: flex-start;
-    background-color:#FF8787;
-    border-radius: 100px;
-    display: flex;
-    flex: 0 0 auto;
-    flex-flow: column nowrap;
-    gap: 10px;
-    height: min-content;
-    overflow: hidden;
-    padding: 16px 24px;
-    position: relative;
-    text-decoration: none;
-    width: min-content;
-    will-change: transform;
+
+    background: linear-gradient(60deg,#f79533,#f37055,#ef4e7b,#a166ab,#5073b8,#1098ad,#07b39b,#6fba82);
+    animation: animatedgradient-fac1f164 3s ease infinite alternate;
+    background-size: 150% 150%;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
     cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+  width: 100%;  
 }
 
 .generate {
@@ -213,6 +428,28 @@ textarea {
 .loading {
     opacity: 0.7;
     cursor: default;
+}
+
+
+.pdf-button{
+    color:#f79533;
+    background-size: 300% 300%;
+    border: 2px solid #f79533;
+    border-radius: 16px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+  width: 20%;  
+  align-self: center;
 }
 
 .badge-container {
@@ -312,7 +549,7 @@ textarea {
     letter-spacing: 0px;
     line-height: 1.4em;
     text-align: start;
-    color: #ffffff;
+    color: #1f1c1a;
     text-decoration: none;
     text-transform: none;
     margin: 0;
@@ -331,9 +568,12 @@ textarea {
 .output-content p {
     text-align: center;
     white-space: pre-line;
-    color: white;
+    color: #1f1c1a;
+    font-size: 18px;
 }
-
+.image-grid img{
+   margin: 10px;
+}
 @media (min-width: 810px) and (max-width: 1199px) {
     .container {
         max-width: 600px;
